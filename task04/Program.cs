@@ -22,7 +22,7 @@ while (count <= num)
             Console.Write(count * count + ",");
     count++;     
 }}
-int N = GetNumber("Введите число: ");
+int N = GetNumber("Введите число: ");// Присваиваем N данные, которые вернул метод GetNumber
 Square(N);
 
 
