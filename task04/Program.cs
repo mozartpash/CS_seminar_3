@@ -12,17 +12,22 @@ int GetNumber(string message)// Этот медод для того, чтобы 
 void Square(int num)//Печатаем квадраты числа от 1 до N
 {
 int count = 1;
-while(count <= num)
+while (count <= num)
 {
-    Console.Write(count * count + " ");
+        if (count == num)
+        
+            Console.Write(count * count + ".");
+        
+        else
+            Console.Write(count * count + ",");
     count++;
-    
-};
-}
+        
+    ;
+}}
 int N = GetNumber("Введите число: ");
 Square(N);
 
 
 
-    
+
 
