@@ -20,9 +20,7 @@ while (count <= num)
         
         else
             Console.Write(count * count + ",");
-    count++;
-        
-    ;
+    count++;     
 }}
 int N = GetNumber("Введите число: ");
 Square(N);
